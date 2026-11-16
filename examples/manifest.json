@@ -1,0 +1,208 @@
+{
+  "databases": {
+    "mitdb": {
+      "name": "MIT-BIH Arrhythmia Database",
+      "version": "1.0.0",
+      "doi": "https://doi.org/10.13026/C2F305",
+      "license": "ODC-By-1.0"
+    },
+    "stdb": {
+      "name": "MIT-BIH ST Change Database",
+      "version": "1.0.0",
+      "doi": "https://doi.org/10.13026/C2ZW2H",
+      "license": "ODC-By-1.0"
+    }
+  },
+  "license_uri": "https://opendatacommons.org/licenses/by/1-0/",
+  "scalograms": [
+    {
+      "file": "N_idx1875.png",
+      "label": "N",
+      "balanced_h5_index": 1875,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "105",
+      "annotation_symbol": "N",
+      "batch_file": "train_v4_batch_1.h5",
+      "batch_position": 891,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "N_idx16473.png",
+      "label": "N",
+      "balanced_h5_index": 16473,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "221",
+      "annotation_symbol": "N",
+      "batch_file": "train_v4_batch_16.h5",
+      "batch_position": 675,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "S_idx22635.png",
+      "label": "S",
+      "balanced_h5_index": 22635,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "232",
+      "annotation_symbol": "A",
+      "batch_file": "train_v4_batch_25.h5",
+      "batch_position": 652,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "S_idx22655.png",
+      "label": "S",
+      "balanced_h5_index": 22655,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "232",
+      "annotation_symbol": "A",
+      "batch_file": "train_v4_batch_25.h5",
+      "batch_position": 678,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "V_idx16892.png",
+      "label": "V",
+      "balanced_h5_index": 16892,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "221",
+      "annotation_symbol": "V",
+      "batch_file": "train_v4_batch_17.h5",
+      "batch_position": 106,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "V_idx31028.png",
+      "label": "V",
+      "balanced_h5_index": 31028,
+      "selection": "default_rng(43) replacement",
+      "source_database": "mitdb",
+      "record": "201",
+      "annotation_symbol": "V",
+      "batch_file": "train_v4_batch_100.h5",
+      "batch_position": 3,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "F_idx4602.png",
+      "label": "F",
+      "balanced_h5_index": 4602,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "213",
+      "annotation_symbol": "F",
+      "batch_file": "train_v4_batch_4.h5",
+      "batch_position": 736,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "F_idx31215.png",
+      "label": "F",
+      "balanced_h5_index": 31215,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "201",
+      "annotation_symbol": "F",
+      "batch_file": "train_v4_batch_100.h5",
+      "batch_position": 618,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "Q_idx34315.png",
+      "label": "Q",
+      "balanced_h5_index": 34315,
+      "selection": "default_rng(43) replacement",
+      "source_database": "mitdb",
+      "record": "102",
+      "annotation_symbol": "/",
+      "batch_file": "train_v4_batch_136.h5",
+      "batch_position": 650,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "Q_idx36419.png",
+      "label": "Q",
+      "balanced_h5_index": 36419,
+      "selection": "default_rng(42)",
+      "source_database": "mitdb",
+      "record": "104",
+      "annotation_symbol": "/",
+      "batch_file": "val_v4_batch_0.h5",
+      "batch_position": 161,
+      "license": "ODC-By-1.0"
+    }
+  ],
+  "beats": [
+    {
+      "file": "N_mitbih_100_sample370.csv",
+      "label": "N",
+      "annotation_symbol": "N",
+      "source_database": "mitdb",
+      "record": "100",
+      "lead": "MLII",
+      "r_peak_sample": 370,
+      "fs_hz": 360,
+      "n_samples": 300,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "S_mitbih_232_sample737.csv",
+      "label": "S",
+      "annotation_symbol": "A",
+      "source_database": "mitdb",
+      "record": "232",
+      "lead": "MLII",
+      "r_peak_sample": 737,
+      "fs_hz": 360,
+      "n_samples": 300,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "V_mitbih_119_sample503.csv",
+      "label": "V",
+      "annotation_symbol": "V",
+      "source_database": "mitdb",
+      "record": "119",
+      "lead": "MLII",
+      "r_peak_sample": 503,
+      "fs_hz": 360,
+      "n_samples": 300,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "F_mitbih_208_sample697.csv",
+      "label": "F",
+      "annotation_symbol": "F",
+      "source_database": "mitdb",
+      "record": "208",
+      "lead": "MLII",
+      "r_peak_sample": 697,
+      "fs_hz": 360,
+      "n_samples": 300,
+      "license": "ODC-By-1.0"
+    },
+    {
+      "file": "Q_mitbih_107_sample272.csv",
+      "label": "Q",
+      "annotation_symbol": "/",
+      "source_database": "mitdb",
+      "record": "107",
+      "lead": "MLII",
+      "r_peak_sample": 272,
+      "fs_hz": 360,
+      "n_samples": 300,
+      "license": "ODC-By-1.0"
+    }
+  ],
+  "colour_example": {
+    "file": "docs/assets/colour_scalogram_example.png",
+    "derived_from": "examples/scalograms/N_idx1875.png",
+    "source_database": "mitdb",
+    "record": "105",
+    "purpose": "rejected-input demonstration (colour image)"
+  }
+}

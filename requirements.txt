@@ -1,0 +1,10 @@
+# Runtime dependencies for the Gradio demo (tested with Python 3.11.9 on macOS arm64).
+# The checkpoint was saved with Keras 3.13.2; older Keras 3 releases (e.g. 3.3.x) cannot load it.
+tensorflow==2.20.0
+keras==3.13.2
+gradio==6.32.0
+numpy==2.4.6
+pandas==3.1.1
+pillow==13.0.0
+PyWavelets==1.9.0
+opencv-python-headless==4.14.0.94

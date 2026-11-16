@@ -1,0 +1,6 @@
+# Development / verification tools (tests, data scripts, screenshots).
+-r requirements.txt
+pytest==9.2.0
+h5py==3.16.0
+wfdb==4.3.1
+playwright==1.65.2

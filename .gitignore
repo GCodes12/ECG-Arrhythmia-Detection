@@ -1,0 +1,41 @@
+# --- Environments & tooling ---------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+*.log
+
+# --- Gradio runtime files (flagged samples, caches) --------------------------
+.gradio/
+**/.gradio/
+flagged/
+
+# --- Data: never commit datasets (1.1 GB balanced HDF5, raw PhysioNet records) -
+datasets/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.zip
+
+# --- Models: only the deployed checkpoint is tracked -------------------------
+models/*
+!models/v4_custom_fast_mode.keras
+
+# --- Notebooks: only the curated publication copy is tracked -----------------
+# The original Colab notebooks stay in notebooks/ locally but are not published.
+notebooks/*
+!notebooks/ECG_CWT_CNN_V4_Pipeline.ipynb
+
+# --- Legacy local artifacts kept on disk but not published -------------------
+_original_backup/
+demo/
+Demo_Samples_20 2/
